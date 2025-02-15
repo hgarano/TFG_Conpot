@@ -1,0 +1,33 @@
+--2025-02-07 11:32:32--  ftp://anonymous:*password*@172.17.0.2:2121/
+           => ‘172.17.0.2:2121/.listing’
+Conectando con 172.17.0.2:2121... conectado.
+Accediendo como anonymous... ¡Sesión iniciada!
+==> SYST ... hecho.    ==> PWD ... hecho.
+==> TYPE I ... hecho.  ==> no se necesita CWD.
+==> PORT ... 
+PUERTO inválido.
+Reintentando.
+
+--2025-02-07 11:34:49--  ftp://anonymous:*password*@172.17.0.2:2121/
+  (intento: 2) => ‘172.17.0.2:2121/.listing’
+Conectando con 172.17.0.2:2121... conectado.
+Accediendo como anonymous... ¡Sesión iniciada!
+==> SYST ... hecho.    ==> PWD ... hecho.
+==> TYPE I ... hecho.  ==> no se necesita CWD.
+==> PORT ... 
+PUERTO inválido.
+Reintentando.
+
+--2025-02-14 11:37:13--  ftp://anonymous:*password*@172.17.0.2:2121/
+  (intento: 3) => ‘172.17.0.2:2121/.listing’
+Conectando con 172.17.0.2:2121... conectado.
+Accediendo como anonymous... ¡Sesión iniciada!
+==> SYST ... hecho.    ==> PWD ... hecho.
+==> TYPE I ... hecho.  ==> no se necesita CWD.
+==> PORT ... 
+Error en la respuesta del servidor, cerrando la conexión de control.
+Reintentando.
+
+--2025-02-14 11:38:03--  ftp://anonymous:*password*@172.17.0.2:2121/
+  (intento: 4) => ‘172.17.0.2:2121/.listing’
+Conectando con 172.17.0.2:2121... falló: No existe ninguna ruta hasta el «host».

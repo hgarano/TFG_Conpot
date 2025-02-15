@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+# EASY-INSTALL-SCRIPT: 'conpot==0.6.0','conpot'
+__requires__ = 'conpot==0.6.0'
+__import__('pkg_resources').run_script('conpot==0.6.0', 'conpot')

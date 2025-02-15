@@ -3,7 +3,7 @@
 
 import logging
 
-from pysmi.reader import FileReader, FtpReader
+from pysmi.reader import FileReader
 from pysnmp.entity import config
 from pysnmp.entity.rfc3413 import context
 from pysnmp.carrier.asynsock.dgram import udp
