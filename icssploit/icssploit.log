@@ -1,0 +1,182 @@
+2025-02-11 10:35:54,488 ERROR icssploit.exceptions       Unknown command: 'icssploit'
+Traceback (most recent call last):
+  File "/home/haizea/icssploit/icssploit/interpreter.py", line 73, in get_command_handler
+    command_handler = getattr(self, "command_{}".format(command))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IcssploitInterpreter' object has no attribute 'command_icssploit'. Did you mean: 'command_exploit'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haizea/icssploit/icssploit/interpreter.py", line 76, in get_command_handler
+    command_handler = getattr(self.current_module, "command_{}".format(command))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'command_icssploit'
+2025-02-11 10:36:00,499 ERROR icssploit.exceptions       Error during loading 'icssploit/modules/creds/snmp_bruteforce'
+
+Error: No module named 'pysnmp.entity.rfc3413.oneliner'
+
+It should be valid path to the module. Use <tab> key multiple times for completion.
+Traceback (most recent call last):
+  File "/home/haizea/icssploit/icssploit/utils/__init__.py", line 79, in import_exploit
+    module = importlib.import_module(path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/haizea/icssploit/icssploit/modules/creds/snmp_bruteforce.py", line 2, in <module>
+    from pysnmp.entity.rfc3413.oneliner import cmdgen
+ModuleNotFoundError: No module named 'pysnmp.entity.rfc3413.oneliner'
+2025-02-11 10:37:18,339 ERROR icssploit.exceptions       Unknown command: 'icssploit'
+Traceback (most recent call last):
+  File "/home/haizea/icssploit/icssploit/interpreter.py", line 73, in get_command_handler
+    command_handler = getattr(self, "command_{}".format(command))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IcssploitInterpreter' object has no attribute 'command_icssploit'. Did you mean: 'command_exploit'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haizea/icssploit/icssploit/interpreter.py", line 76, in get_command_handler
+    command_handler = getattr(self.current_module, "command_{}".format(command))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'command_icssploit'
+2025-02-11 10:37:23,464 ERROR icssploit.exceptions       Error during loading 'icssploit/modules/creds/snmp_bruteforce'
+
+Error: No module named 'pysnmp.entity.rfc3413.oneliner'
+
+It should be valid path to the module. Use <tab> key multiple times for completion.
+Traceback (most recent call last):
+  File "/home/haizea/icssploit/icssploit/utils/__init__.py", line 79, in import_exploit
+    module = importlib.import_module(path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/haizea/icssploit/icssploit/modules/creds/snmp_bruteforce.py", line 2, in <module>
+    from pysnmp.entity.rfc3413.oneliner import cmdgen
+ModuleNotFoundError: No module named 'pysnmp.entity.rfc3413.oneliner'
+2025-02-11 10:37:35,159 ERROR icssploit.exceptions       Unknown command: 'close'
+Traceback (most recent call last):
+  File "/home/haizea/icssploit/icssploit/interpreter.py", line 73, in get_command_handler
+    command_handler = getattr(self, "command_{}".format(command))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IcssploitInterpreter' object has no attribute 'command_close'. Did you mean: 'command_use'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haizea/icssploit/icssploit/interpreter.py", line 76, in get_command_handler
+    command_handler = getattr(self.current_module, "command_{}".format(command))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'command_close'
+2025-02-11 10:39:10,190 ERROR icssploit.exceptions       Error during loading 'icssploit/modules/creds/snmp_bruteforce'
+
+Error: No module named 'pyasn1.compat.octets'
+
+It should be valid path to the module. Use <tab> key multiple times for completion.
+Traceback (most recent call last):
+  File "/home/haizea/icssploit/icssploit/utils/__init__.py", line 79, in import_exploit
+    module = importlib.import_module(path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/haizea/icssploit/icssploit/modules/creds/snmp_bruteforce.py", line 2, in <module>
+    from pysnmp.entity.rfc3413.oneliner import cmdgen
+  File "/home/haizea/icssploit/venv/lib/python3.12/site-packages/pysnmp/entity/rfc3413/oneliner/cmdgen.py", line 10, in <module>
+    from pysnmp.hlapi.asyncore import *
+  File "/home/haizea/icssploit/venv/lib/python3.12/site-packages/pysnmp/hlapi/__init__.py", line 7, in <module>
+    from pysnmp.proto.rfc1902 import *
+  File "/home/haizea/icssploit/venv/lib/python3.12/site-packages/pysnmp/proto/rfc1902.py", line 9, in <module>
+    from pysnmp.proto import rfc1155, error
+  File "/home/haizea/icssploit/venv/lib/python3.12/site-packages/pysnmp/proto/rfc1155.py", line 10, in <module>
+    from pysnmp.proto import error
+  File "/home/haizea/icssploit/venv/lib/python3.12/site-packages/pysnmp/proto/error.py", line 9, in <module>
+    from pysnmp import debug
+  File "/home/haizea/icssploit/venv/lib/python3.12/site-packages/pysnmp/debug.py", line 8, in <module>
+    from pyasn1.compat.octets import octs2ints
+ModuleNotFoundError: No module named 'pyasn1.compat.octets'
+2025-02-11 10:40:48,964 ERROR icssploit.exceptions       Error during loading 'icssploit/modules/creds/snmp_bruteforce'
+
+Error: No module named 'asyncore'
+
+It should be valid path to the module. Use <tab> key multiple times for completion.
+Traceback (most recent call last):
+  File "/home/haizea/icssploit/icssploit/utils/__init__.py", line 79, in import_exploit
+    module = importlib.import_module(path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/haizea/icssploit/icssploit/modules/creds/snmp_bruteforce.py", line 2, in <module>
+    from pysnmp.entity.rfc3413.oneliner import cmdgen
+  File "/home/haizea/icssploit/venv/lib/python3.12/site-packages/pysnmp/entity/rfc3413/oneliner/cmdgen.py", line 10, in <module>
+    from pysnmp.hlapi.asyncore import *
+  File "/home/haizea/icssploit/venv/lib/python3.12/site-packages/pysnmp/hlapi/__init__.py", line 10, in <module>
+    from pysnmp.hlapi import auth
+  File "/home/haizea/icssploit/venv/lib/python3.12/site-packages/pysnmp/hlapi/auth.py", line 7, in <module>
+    from pysnmp.entity import config
+  File "/home/haizea/icssploit/venv/lib/python3.12/site-packages/pysnmp/entity/config.py", line 8, in <module>
+    from pysnmp.carrier.asyncore.dgram import udp, udp6, unix
+  File "/home/haizea/icssploit/venv/lib/python3.12/site-packages/pysnmp/carrier/asyncore/dgram/udp.py", line 9, in <module>
+    from pysnmp.carrier.asyncore.dgram.base import DgramSocketTransport
+  File "/home/haizea/icssploit/venv/lib/python3.12/site-packages/pysnmp/carrier/asyncore/dgram/base.py", line 10, in <module>
+    from pysnmp.carrier.asyncore.base import AbstractSocketTransport
+  File "/home/haizea/icssploit/venv/lib/python3.12/site-packages/pysnmp/carrier/asyncore/base.py", line 9, in <module>
+    import asyncore
+ModuleNotFoundError: No module named 'asyncore'
+2025-02-11 10:51:21,914 ERROR icssploit.exceptions       Error during loading 'icssploit/modules/'
+
+Error: No module named 'icssploit.modules.'
+
+It should be valid path to the module. Use <tab> key multiple times for completion.
+Traceback (most recent call last):
+  File "/home/haizea/icssploit/icssploit/utils/__init__.py", line 79, in import_exploit
+    module = importlib.import_module(path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'icssploit.modules.'
+2025-02-11 10:52:51,795 ERROR icssploit.exceptions       Unknown command: 'info'
+Traceback (most recent call last):
+  File "/home/haizea/icssploit/icssploit/interpreter.py", line 73, in get_command_handler
+    command_handler = getattr(self, "command_{}".format(command))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IcssploitInterpreter' object has no attribute 'command_info'. Did you mean: 'command_back'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haizea/icssploit/icssploit/interpreter.py", line 76, in get_command_handler
+    command_handler = getattr(self.current_module, "command_{}".format(command))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'command_info'
