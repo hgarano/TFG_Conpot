@@ -53,6 +53,8 @@ docs/build
 
 docs/source/conpot_version.py
 *.log
+!icssploit/
+
 
 log/
 .cache/
